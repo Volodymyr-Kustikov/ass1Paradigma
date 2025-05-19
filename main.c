@@ -256,9 +256,9 @@ void printCurrentText(TextBuffer* buffer) {
         return;
     }
 
-    printf("\n===== Current Text Content =====\n");
+    printf("\n! Current Text Content !\n");
     printf("%s\n", buffer->content);
-    printf("===== End of Content =====\n");
+    printf("! End of Content !\n");
     printf("Text length: %zu characters\n", buffer->used);
 }
 
